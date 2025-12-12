@@ -23,7 +23,7 @@ def main():
         if user_input.lower() in ['exit', 'quit']:
             print("Chatbot: Goodbye! Have a great day!")
 
-    #Should generate the AI response
+    # Generates the AI response
         response = chain.run(question=user_input)
         print(f"Chatbot: {response}")
 
